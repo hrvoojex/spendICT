@@ -207,12 +207,6 @@
        </item>
       </layout>
      </widget>
-     <zorder>pushButton_3</zorder>
-     <zorder>pushButton_5</zorder>
-     <zorder>layoutWidget</zorder>
-     <zorder>label_6</zorder>
-     <zorder>groupBox_2</zorder>
-     <zorder>groupBox_2</zorder>
     </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_2">
@@ -250,7 +244,7 @@
       <string>Ciljani podatak</string>
      </property>
     </widget>
-    <widget class="QWidget" name="">
+    <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
        <x>21</x>
@@ -283,7 +277,7 @@
       </item>
      </layout>
     </widget>
-    <widget class="QWidget" name="">
+    <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -313,10 +307,29 @@
      </layout>
     </widget>
    </widget>
-   <zorder>groupBox</zorder>
-   <zorder>groupBox_2</zorder>
-   <zorder>label_6</zorder>
-   <zorder>label_6</zorder>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>771</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Prikaz</string>
+    </property>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>751</width>
+       <height>231</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
